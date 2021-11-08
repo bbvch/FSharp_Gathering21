@@ -1,0 +1,16 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = crlf
+
+[*.fs]
+indent_size = 2
+fsharp_blank_lines_around_nested_multiline_expressions=false
+fsharp_max_value_binding_width=50
+
+[*.sln]
+indent_style = tab

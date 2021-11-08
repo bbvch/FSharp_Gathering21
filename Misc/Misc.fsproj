@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Duck.fs" />
+    <Compile Include="PatternMatching.fs" />
+    <Compile Include="UnitsOfMeasure.fs" />
+  </ItemGroup>
+</Project>
