@@ -3,7 +3,6 @@ open Microsoft.Extensions.Configuration
 open Microsoft.Extensions.DependencyInjection
 open Microsoft.Extensions.Hosting
 open Microsoft.AspNetCore.Builder
-open Grpc.Server
 
 type Startup() =
   member _.ConfigureServices(services: IServiceCollection) = services.AddGrpc() |> ignore
